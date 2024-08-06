@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*******************************/
+/*    G  LOBAL RESETTING       */
+/*******************************/
+
+html {
+  /**** REM to PX ****/
+
+  font-size: 62.5%;
+  /* line-height: normal; */
+}
+
+body {
+  font-family: "inter", sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+/*******************************/
+/*   REUSABLE STYLE EFFECT     */
+/*******************************/
+
+.primary-heading,
+.secondary-heading {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.primary-heading {
+  letter-spacing: -3px;
+  margin-bottom: 28px;
+}
+
+.secondary-heading {
+  /* text-align: center; */
+  margin-bottom: 2rem;
+}

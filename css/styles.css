@@ -1,0 +1,287 @@
+/*******************************/
+/*      CONTAINER STYLE        */
+/*******************************/
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.342)),
+    url("../img/netflix-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-blend-mode: darken; */
+  height: 100vh;
+}
+
+/*******************************/
+/*           NAV STYLE        */
+/*******************************/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: aliceblue; */
+  padding-top: 10px;
+
+  margin-bottom: 140px;
+}
+
+.container {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.netflix-logo {
+  width: 200px;
+}
+
+.btn-sign {
+  border: none;
+  background-color: #e50914;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.main {
+  text-align: center;
+}
+
+.main p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.main p:nth-of-type(2) {
+  margin-bottom: 4rem;
+}
+
+/****  INPUT MAIL ****/
+
+.email-input {
+  padding: 15px 30px;
+  /* height: 32px; */
+  width: 40%;
+  /* border: 1px solid rgb(253, 253, 253); */
+  border-radius: 5px;
+  font-size: 18px;
+  background: inherit;
+  color: #f7f7f7;
+  margin-right: 20px;
+}
+
+::placeholder {
+  color: #414141;
+  background: linear-gradient(rgba(0 0 0 0.7), rgba(0 0 0 0.7));
+}
+
+.btn-submit {
+  font-size: 20px;
+  padding: 15px 30px;
+  background-color: #e50914;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.btn-submit:hover,
+.btn-submit:active,
+.btn-sign:hover,
+.btn-sign:active {
+  background-color: #a0060e;
+  cursor: pointer;
+}
+
+/*******************************/
+/*           SECTION        */
+/*******************************/
+
+.section {
+  background-color: #000;
+  /* height: 900px; */
+  border-top: 10px solid #414141;
+  /* border-bottom: 10px solid #414141; */
+}
+
+.section-a {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* justify-content: center; */
+  align-items: center;
+  gap: 64px;
+
+  padding: 50px 0;
+}
+
+.sect--b {
+  /* height: calc(100% + 50px); */
+  height: 36rem;
+}
+
+.sub-heading {
+  font-size: 48px;
+  margin-bottom: 32px;
+  font-weight: 700;
+}
+
+.section-text p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.img-section {
+  width: 100%;
+}
+
+/*******************************/
+/*    SECTION FAQ              */
+/*******************************/
+
+.faq {
+  background-color: #000;
+  padding: 5.2rem 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+  border-top: 10px solid #414141;
+  border-bottom: 10px solid #414141;
+  /* justify-content: center; */
+
+  /* margin-bottom: 4rem; */
+}
+
+.faq-options {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 1rem;
+}
+
+.faq--btn {
+  font-size: 2.8rem;
+  text-align: left;
+  padding: 24px;
+  background-color: #414141;
+  color: #f7f7f7;
+  border: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96rem;
+
+  /* position: relative; */
+}
+
+.faq--icon {
+  font-size: 4rem;
+}
+
+.faq--dropdown {
+  /* position: absolute; */
+
+  background-color: #414141;
+  padding: 2.4rem;
+  font-size: 2.2rem;
+  line-height: 1.4;
+  color: #f7f7f7;
+  width: 96rem;
+  /* top: 68px;
+  left: 0; */
+
+  border-top: 2px solid #000;
+
+  /* display: flex; */
+  flex-direction: column;
+  gap: 2rem;
+
+  display: none;
+  /* margin-bottom: 4rem; */
+}
+
+.faq-options {
+  margin-bottom: 2.4rem;
+}
+
+.faq-options li {
+  list-style: none;
+}
+
+.faq-options li:focus-within .faq--dropdown {
+  display: flex;
+}
+
+/****** FORM FAQ **********/
+
+.faq-form {
+  width: 100%;
+  text-align: center;
+}
+
+.faq-form--p {
+  font-size: 20px;
+  /* margin-bottom: 10px; */
+}
+
+.mail-width {
+  width: 30%;
+}
+
+/*******************************/
+/*    SECTION FOOTER           */
+/*******************************/
+
+footer {
+  background-color: #000;
+}
+.footer {
+  padding: 5.2rem 0;
+}
+
+.footer-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-heading {
+  margin-bottom: 2rem;
+}
+
+.footer a:link,
+.footer a:visited {
+  color: #b3b3b3;
+  font-size: 1.6rem;
+  /* font-weight: 400; */
+}
+
+.content-foot {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+select {
+  padding: 5px 18px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  /* text-align: center; */
+}
+
+.select-icon {
+  width: 2.4rem;
+  stroke: #fff;
+  color: #fff;
+}
+
+.content-foot li {
+  list-style: none;
+}
