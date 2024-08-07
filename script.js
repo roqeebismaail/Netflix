@@ -1,7 +1,7 @@
 "use strict";
 
-const js = connect;
+let js = "connect";
 
-if (js == connect) {
+if (js === "connect") {
   alert("Welcome to Roqeeb Cloned Site(Netflix)");
 }

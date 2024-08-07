@@ -13,6 +13,8 @@ html {
 
   font-size: 62.5%;
   /* line-height: normal; */
+
+  overflow-x: hidden;
 }
 
 body {
@@ -24,6 +26,11 @@ body {
 /*******************************/
 /*   REUSABLE STYLE EFFECT     */
 /*******************************/
+
+.container {
+  max-width: 110rem;
+  margin: 0 auto;
+}
 
 .primary-heading,
 .secondary-heading {

@@ -1,0 +1,247 @@
+/***********************************/
+/*         QUERY ME  😁           */
+/***********************************/
+
+@media (max-width: 72.5em) {
+  .container {
+    max-width: 96rem;
+  }
+
+  .faq--btn,
+  .faq--dropdown {
+    width: 80rem;
+  }
+
+  .primary-heading,
+  .secondary-heading,
+  .sub-heading {
+    font-size: 42px;
+  }
+
+  .main p {
+    font-size: 20px;
+  }
+}
+
+/* @media (max-width: 65em) {
+  .container {
+    width: 80rem;
+  } */
+
+  .primary-heading,
+  .secondary-heading {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 55.625em) {
+  .container {
+    max-width: 72rem;
+  }
+
+  /* .header {
+    height: 80vh;
+  } */
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .main p {
+    font-size: 1.8rem;
+  }
+
+  .email-input {
+    padding: 10px 20px;
+    width: 30%;
+    font-size: 14px;
+
+    margin-right: 15px;
+  }
+
+  .btn-submit {
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: 600;
+  }
+
+  .sub-heading {
+    font-size: 38px;
+  }
+
+  .section-text p {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .primary-heading,
+  .secondary-heading {
+    font-size: 38px;
+  }
+
+  .faq--btn,
+  .faq--dropdown {
+    width: 65rem;
+  }
+}
+
+@media (max-width: 48.75em) {
+  .container {
+    max-width: 64rem;
+
+    /* form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    } */
+
+    nav {
+      margin-bottom: 15rem;
+    }
+  }
+
+  /* .header {
+    height: 75%;
+  } */
+
+  .section-a {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, auto);
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+  }
+
+  .img-section {
+    width: 64%;
+  }
+
+  .sub-heading {
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
+
+  .primary-heading,
+  .secondary-heading {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 43.2em) {
+  .faq--btn,
+  .faq--dropdown {
+    width: 50rem;
+  }
+
+  .faq--btn {
+    font-size: 1.8rem;
+    padding: 20px;
+  }
+
+  .secondary-heading {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 40.7em) {
+  .container {
+    max-width: 50rem;
+  }
+
+  .netflix-logo {
+    width: 100px;
+  }
+
+  .faq--btn,
+  .faq--dropdown {
+    width: 48rem;
+  }
+
+  .email-input {
+    width: 50%;
+  }
+
+  .btn-sign {
+    padding: 5px 10px;
+  }
+
+  .faq--btn {
+    font-size: 1.8rem;
+    padding: 18px;
+  }
+
+  .faq--icon {
+    font-size: 2.4rem;
+  }
+
+  .faq-form--p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .footer-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    row-gap: 24px;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 32.5em) {
+  .container {
+    max-width: 48rem;
+  }
+
+  .faq--btn,
+  .faq--dropdown {
+    width: 42rem;
+  }
+}
+@media (max-width: 30em) {
+  .container {
+    max-width: 42rem;
+  }
+
+  .faq--btn,
+  .faq--dropdown {
+    width: 38rem;
+  }
+}
+@media (max-width: 27.5em) {
+  .container {
+    max-width: 38rem;
+  }
+
+  .faq--btn,
+  .faq--dropdown {
+    width: 32rem;
+  }
+}
+@media (max-width: 25em) {
+  .container {
+    max-width: 34rem;
+  }
+
+  .faq--btn,
+  .faq--dropdown {
+    width: 30rem;
+  }
+}
+@media (max-width: 22.5em) {
+  .container {
+    max-width: 30rem;
+  }
+
+  .faq--btn,
+  .faq--dropdown {
+    width: 28rem;
+  }
+}
